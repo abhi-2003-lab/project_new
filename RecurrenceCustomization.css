@@ -1,0 +1,44 @@
+.recurrence-customization {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.interval-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.days-of-week-row {
+  display: flex;
+  gap: 0.3rem;
+}
+
+.days-of-week-row button.selected {
+  background: #2563eb;
+  color: #fff;
+  border-color: #2563eb;
+}
+
+.days-of-week-row button {
+  padding: 0.3rem 0.7rem;
+  border: 1px solid #ccc;
+  background: #f8f8f8;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: background 0.2s, border 0.2s;
+}
+
+.monthly-pattern-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.monthly-pattern-row select {
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+} 

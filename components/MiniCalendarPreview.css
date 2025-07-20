@@ -1,0 +1,36 @@
+.mini-calendar-preview {
+  width: 100%;
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.calendar-header, .calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.calendar-cell {
+  padding: 0.5rem 0;
+  text-align: center;
+  border: 1px solid #eee;
+  min-width: 32px;
+  min-height: 32px;
+  font-size: 1rem;
+}
+
+.calendar-cell.header {
+  background: #f3f4f6;
+  font-weight: 600;
+}
+
+.calendar-cell.recurring {
+  background: #2563eb;
+  color: #fff;
+  border-color: #2563eb;
+  border-radius: 50%;
+}
+
+.calendar-cell.empty {
+  background: transparent;
+  border: none;
+} 
